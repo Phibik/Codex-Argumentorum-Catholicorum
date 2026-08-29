@@ -1,0 +1,3290 @@
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.6.20)  29 AUG 2026 20:04
+ restricted system commands enabled.
+**Codex_Argumentorum_Catholicorum.tex
+(./Codex_Argumentorum_Catholicorum.tex
+LaTeX2e <2024-06-01> patch level 1
+L3 programming layer <2024-05-27>
+Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/texlive/2024/texmf-var/luatex-ca
+che/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "c:/texlive/2024/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-
+28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/texlive/2024/texmf-var/luatex-ca
+che/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (c:/texlive/2024/texmf-
+dist/tex/latex/base/report.cls
+Document Class: report 2024/02/08 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/texlive/2024/texmf-var/luat
+ex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count192
+\c@chapter=\count193
+\c@section=\count194
+\c@subsection=\count195
+\c@subsubsection=\count196
+\c@paragraph=\count197
+\c@subparagraph=\count198
+\c@figure=\count199
+\c@table=\count266
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen140
+) (./config/01_colors.sty
+Package: config/01_colors Paleta de colores personalizada
+(c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
+)
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/05/26 v1.0h Color table columns (DPC)
+
+(c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen141
+\ar@mcellbox=\box52
+\extrarowheight=\dimen142
+\NC@list=\toks17
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box53
+)
+\everycr=\toks18
+\minrowclearance=\skip53
+\rownum=\count267
+))
+(./config/02_basics.sty
+Package: config/02_basics Geometría, espaciados, listas y formatos básicos
+
+(c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count268
+\Gm@cntv=\count269
+\c@Gm@tempcnt=\count270
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks20
+)
+(c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen151
+\captionmargin=\dimen152
+\caption@leftmargin=\dimen153
+\caption@rightmargin=\dimen154
+\caption@width=\dimen155
+\caption@indent=\dimen156
+\caption@parindent=\dimen157
+\caption@hangindent=\dimen158
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count271
+\c@continuedfloat=\count272
+)
+(c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count273
+)
+(c:/texlive/2024/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)))
+(c:/texlive/2024/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(c:/texlive/2024/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language2
+LaTeX Info: Redefining \_ on input line 43.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/contour/contour.sty
+Package: contour 2004/11/18 v2.14 Print contoured text (HH, MH)
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+\con@length=\skip54
+
+Loading configuration file `contour.cfg'.
+(c:/texlive/2024/texmf-dist/tex/latex/contour/contour.cfg
+File: contour.cfg 2004/11/18 v2.14 Print contoured text (HH, MH)
+)
+contour: Using driver file `dvips.cnt'.
+(c:/texlive/2024/texmf-dist/tex/latex/contour/dvips.cnt
+File: dvips.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
+))
+(c:/texlive/2024/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box54
+\UL@hyphenbox=\box55
+\UL@skip=\skip55
+\UL@hook=\toks21
+\UL@height=\dimen159
+\UL@pe=\count274
+\UL@pixel=\dimen160
+\ULC@box=\box56
+Package: ulem 2019/11/18
+\ULdepth=\dimen161
+)
+(c:/texlive/2024/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
+Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
+)
+(c:/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty
+(c:/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-05-27 L3 programming layer (loader) 
+
+(c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count275
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box57
+))
+Package: l3keys2e 2024-05-08 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count276
+\l__lipsum_a_int=\count277
+\l__lipsum_b_int=\count278
+
+(c:/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(c:/texlive/2024/texmf-dist/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-05-08 L3 Experimental document command parser
+))
+(c:/texlive/2024/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
+\c@tracingmulticols=\count279
+\mult@box=\box58
+\multicol@leftmargin=\dimen162
+\c@unbalance=\count280
+\c@collectmore=\count281
+\doublecol@number=\count282
+\multicoltolerance=\count283
+\multicolpretolerance=\count284
+\full@width=\dimen163
+\page@free=\dimen164
+\premulticols=\dimen165
+\postmulticols=\dimen166
+\multicolsep=\skip56
+\multicolbaselineskip=\skip57
+\partial@page=\box59
+\last@line=\box60
+\mc@boxedresult=\box61
+\maxbalancingoverflow=\dimen167
+\mult@rightbox=\box62
+\mult@grightbox=\box63
+\mult@firstbox=\box64
+\mult@gfirstbox=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\c@minrows=\count285
+\c@columnbadness=\count286
+\c@finalcolumnbadness=\count287
+\last@try=\dimen168
+\multicolovershoot=\dimen169
+\multicolundershoot=\dimen170
+\mult@nat@firstbox=\box102
+\colbreak@box=\box103
+\mc@col@check@num=\count288
+)
+(c:/texlive/2024/texmf-dist/tex/latex/qrcode/qrcode.sty
+Package: qrcode 2015/01/08 v1.51 QR code generation
+
+(c:/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(c:/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+)
+\XKV@depth=\count289
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@qr@i=\count290
+\c@qr@j=\count291
+\qr@a=\count292
+\qr@b=\count293
+\qr@c=\count294
+\qr@for@depth=\count295
+\qr@for@maxdepth=\count296
+\qr@for@start=\count297
+\qr@for@end=\count298
+\qr@for@step=\count299
+\qr@newforcount=\count300
+\qr@newforcount=\count301
+\qr@desiredheight=\skip58
+\qr@modulesize=\skip59
+\qr@minipagewidth=\skip60
+\c@maski=\count302
+\c@maskj=\count303
+\c@totalones=\count304
+\c@penaltyi=\count305
+\c@penaltyii=\count306
+\c@penaltyiii=\count307
+\c@penaltyiv=\count308
+\c@qr@hexchars=\count309
+\qr@newforcount=\count310
+\c@qr@divisionsremaining=\count311
+)
+(c:/texlive/2024/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+
+(c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks24
+)
+(c:/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+)
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
+)
+(c:/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\c@svg@param@lastpage=\count312
+\svg@box=\box104
+\c@svg@param@currpage=\count313
+)
+(c:/texlive/2024/texmf-dist/tex/latex/transparent/transparent.sty
+Package: transparent 2022-10-27 v1.5 Transparency with color stacks
+
+(c:/texlive/2024/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
+ stack (HO)
+
+(c:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)))
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen173
+\pgfutil@tempdimb=\dimen174
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box105
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
+de.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen175
+\pgf@y=\dimen176
+\pgf@xa=\dimen177
+\pgf@ya=\dimen178
+\pgf@xb=\dimen179
+\pgf@yb=\dimen180
+\pgf@xc=\dimen181
+\pgf@yc=\dimen182
+\pgf@xd=\dimen183
+\pgf@yd=\dimen184
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count314
+\c@pgf@countb=\count315
+\c@pgf@countc=\count316
+\c@pgf@countd=\count317
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count318
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count319
+\pgfsyssoftpath@bigbuffer@items=\count320
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen185
+\WF@size=\dimen186
+\c@WF@wrappedlines=\count321
+\WF@box=\box106
+\WF@everypar=\toks32
+Package: wrapfig 2003/01/31  v 3.6
+)
+(c:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-05-23 v7.01i Hypertext links for LaTeX
+
+(c:/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(c:/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count322
+)
+(c:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen187
+\Hy@linkcounter=\count323
+\Hy@pagecounter=\count324
+
+(c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-05-23 v7.01i Hyperref: PDFDocEncoding definition (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count325
+
+(c:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-05-23 v7.01i Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count326
+
+(c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen188
+
+(c:/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count327
+\Field@Width=\dimen189
+\Fld@charsize=\dimen190
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(c:/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count328
+\c@Item=\count329
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(c:/texlive/2024/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2024-05-23 v7.01i Hyperref driver for luaTeX
+
+(c:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count330
+\c@bookmark@seq@number=\count331
+
+(c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(c:/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip61
+)
+(c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip62
+\enit@outerparindent=\dimen191
+\enit@toks=\toks33
+\enit@inbox=\box107
+\enit@count@id=\count332
+\enitdp@description=\count333
+))
+(./config/03_typography.sty
+Package: config/03_typography Fuentes, Polyglossia y formato de texto
+
+(c:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2024/05/11 2.9e Font selection for XeLaTeX and LuaLaTeX
+(c:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count334
+\l__fontspec_language_int=\count335
+\l__fontspec_strnum_int=\count336
+\l__fontspec_tmp_int=\count337
+\l__fontspec_tmpa_int=\count338
+\l__fontspec_tmpb_int=\count339
+\l__fontspec_tmpc_int=\count340
+\l__fontspec_em_int=\count341
+\l__fontspec_emdef_int=\count342
+\l__fontspec_strong_int=\count343
+\l__fontspec_strongdef_int=\count344
+\l__fontspec_tmpa_dim=\dimen192
+\l__fontspec_tmpb_dim=\dimen193
+\l__fontspec_tmpc_dim=\dimen194
+
+(c:/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(c:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt
+ with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'cmun(0)' created for font 'cmun' with
+(fontspec)             options [Ligatures=TeX,Extension = .otf,UprightFont =
+(fontspec)             *rm,BoldFont = *bx,ItalicFont = *ti,BoldItalicFont =
+(fontspec)             *bi,SlantedFont = *sl,Ligatures = {NoCommon}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[cmunrm.otf]:mode=node;script=latn;language=dflt;+tl
+ig;-liga;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[cmunrm.otf]:mode=node;script=latn;language=dflt;+tl
+ig;-liga;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[cmunbx.otf]:mode=node;script=latn;language=dflt;+tl
+ig;-liga;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[cmunbx.otf]:mode=node;script=latn;language=dflt;+tl
+ig;-liga;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[cmunti.otf]:mode=node;script=latn;language=dflt;+tl
+ig;-liga;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->"[cmunsl.otf]:mode=node;script=latn;language=dflt;+tl
+ig;-liga;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->"[cmunsl.otf]:mode=node;script=latn;language=dflt;+tl
+ig;-liga;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[cmunbi.otf]:mode=node;script=latn;language=dflt;+tl
+ig;-liga;"
+
+luaotfload | aux : font no 27 (nil) defines no feature for script latn
+luaotfload | aux : font no 27 (nil) defines no feature for script dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script dflt
+ with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'cmrbb' created for font 'cmrbb' with
+(fontspec)             options [Path = ./fonts/,Extension = .ttf,NFSSFamily =
+(fontspec)             cmrbb].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/cmrbb.ttf]:mode=node;language=dflt;"
+
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script dflt
+ with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'mc' created for font 'monocraft' with
+(fontspec)             options [Path = ./fonts/,Extension = .ttf,NFSSFamily =
+(fontspec)             mc].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/monocraft.ttf]:mode=node;script=latn;langua
+ge=dflt;"
+
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script dflt
+ with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'FiraCode-Regular(0)' created for font
+(fontspec)             'FiraCode-Regular' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space,Path
+(fontspec)             = ./fonts/,Extension = .ttf,Contextuals=Alternate].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/FiraCode-Regular.ttf]:mode=node;script=latn
+;language=dflt;+calt;"
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2024/03/07 v2.1 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
+
+(c:/texlive/2024/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(c:/texlive/2024/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count345
+)
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
+)
+Lua module: polyglossia 2013/05/11 1.3 Polyglossia
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+)
+Package polyglossia Info: Default language is latex.
+Package polyglossia Info: Setting LuaTeX font renderer to Harfbuzz.
+)
+luaotfload | cache : Lookup cache loaded from C:/texlive/2024/texmf-var/luatex-c
+ache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: 
+(fontspec)             Font family 'HadasimCLM(0)' created for font 'Hadasim
+(fontspec)             CLM' with options [Renderer=Harfbuzz,Script=Hebrew].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Hadasim
+(fontspec)             CLM:mode=harf;script=hebr;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Hadasim
+(fontspec)             CLM/B:mode=harf;script=hebr;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:Hadasim
+(fontspec)             CLM/I:mode=harf;script=hebr;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"name:Hadasim
+(fontspec)             CLM/BI:mode=harf;script=hebr;language=dflt;"
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/gloss-hebrew.ldf
+File: gloss-hebrew.ldf polyglossia: module for Hebrew
+
+(c:/texlive/2024/texmf-dist/tex/lualatex/luabidi/luabidi.sty
+Package: luabidi 2023/10/01 v0.6 Bidirectional typesetting in LuaTeX
+
+(c:/texlive/2024/texmf-dist/tex/lualatex/luabidi/luabidi-footnotes.def
+\footnoterulewidth=\skip63
+))
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/hebrewcal.sty
+Package: hebrewcal 2022/07/18 v2.8 Hebrew calendar for polyglossia (adapted fro
+m hebcal.sty in Babel)
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/cal-util.def
+\c@tmpA=\count346
+\c@tmpB=\count347
+\c@tmpC=\count348
+\c@tmpD=\count349
+\c@tmpE=\count350
+\c@tmpF=\count351
+)
+\hebrewday=\count352
+\hebrewmonth=\count353
+\hebrewyear=\count354
+\@common=\count355
+)
+Package polyglossia Info: Option: Hebrew, numerals=arabic.
+Package polyglossia Info: Option: Hebrew, numerals=arabic.
+Package polyglossia Info: Option: Hebrew, calendar=gregorian.
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/babel-hebrewalph.def
+File: babel-hebrewalph.def 2023/06/01 Expandable definitions for Hebrew numeral
+s
+))
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/gloss-arabic.ldf
+File: gloss-arabic.ldf polyglossia: module for Arabic
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/arabicnumbers.sty
+Package: arabicnumbers 2010/03/18 v0.2 Formatting of Arabic and Farsi digits an
+d of Arabic abjad numerals
+)
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/hijrical.sty
+Package: hijrical 2010/07/12 v0.2 Islamic calendar
+
+(c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count356
+\calc@Bcount=\count357
+\calc@Adimen=\dimen195
+\calc@Bdimen=\dimen196
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count358
+\calc@Cskip=\skip66
+)
+\c@Hijriday=\count359
+\c@Hijrimonth=\count360
+\c@Hijriyear=\count361
+)
+Package polyglossia Info: Option: arabic, locale=default.
+Package polyglossia Info: Option: Arabic, calendar=gregorian.
+Package polyglossia Info: Option: Arabic, numerals=mashriq.
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'Amiri(0)' created for font 'Amiri' with
+(fontspec)             options [Renderer=Harfbuzz,Script=Arabic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:Amiri:mode=harf;script=arab;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:Amiri/B:mode=harf;script=arab;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"name:Amiri/I:mode=harf;script=arab;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"name:Amiri/BI:mode=harf;script=arab;language=dflt;"
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/gloss-greek.ldf
+File: gloss-greek.ldf polyglossia: module for Greek
+Module polyglossia Info: Language data for greek
+(polyglossia)            hyphenation	
+(polyglossia)            loader	loadhyph-el-polyton.tex
+(polyglossia)            lefthyphenmin	1
+(polyglossia)            righthyphenmin	1
+(polyglossia)            synonyms	polygreek
+(polyglossia)            patterns	hyph-el-polyton.pat.txt on input line 21
+Module polyglossia Info: Language greek was not yet loaded; created with id 3 on
+ input line 21
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/xgreek-fixes.def)
+Module polyglossia Info: Language data for monogreek
+(polyglossia)            hyphenation	
+(polyglossia)            loader	loadhyph-el-monoton.tex
+(polyglossia)            lefthyphenmin	1
+(polyglossia)            righthyphenmin	1
+(polyglossia)            synonyms	
+(polyglossia)            patterns	hyph-el-monoton.pat.txt on input line 147
+Module polyglossia Info: Language monogreek was not yet loaded; created with id 
+4 on input line 147
+Package polyglossia Info: Option: Greek, variant=monotonic.
+Package polyglossia Info: Option: Greek, numerals=greek.
+\@attic@num=\count362
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'CMUSerif(0)' created for font 'CMU Serif'
+(fontspec)             with options [Renderer=Harfbuzz,Script=Greek].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:CMU
+(fontspec)             Serif:mode=harf;script=grek;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"name:CMU
+(fontspec)             Serif:mode=harf;script=grek;language=dflt;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:CMU
+(fontspec)             Serif/B:mode=harf;script=grek;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"name:CMU
+(fontspec)             Serif/B:mode=harf;script=grek;language=dflt;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:CMU
+(fontspec)             Serif/I:mode=harf;script=grek;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:CMU
+(fontspec)             Serif/BI:mode=harf;script=grek;language=dflt;"
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/gloss-hindi.ldf
+File: gloss-hindi.ldf polyglossia: module for Hindi
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/devanagaridigits.sty
+Package: devanagaridigits 2010/04/01 v0.1 Formatting of Devanagari digits
+)
+Module polyglossia Info: Language data for hindi
+(polyglossia)            hyphenation	
+(polyglossia)            loader	loadhyph-hi.tex
+(polyglossia)            lefthyphenmin	1
+(polyglossia)            righthyphenmin	1
+(polyglossia)            synonyms	
+(polyglossia)            patterns	hyph-hi.pat.txt on input line 21
+Module polyglossia Info: Language hindi was not yet loaded; created with id 5 on
+ input line 21
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/gloss-sanskrit.ldf
+File: gloss-sanskrit.ldf polyglossia: module for Sanskrit
+Module polyglossia Info: Language data for sanskrit
+(polyglossia)            hyphenation	
+(polyglossia)            loader	loadhyph-sa.tex
+(polyglossia)            lefthyphenmin	1
+(polyglossia)            righthyphenmin	3
+(polyglossia)            synonyms	
+(polyglossia)            patterns	hyph-sa.pat.txt on input line 18
+Module polyglossia Info: Language sanskrit was not yet loaded; created with id 6
+ on input line 18
+Package polyglossia Info: Skipping automatic font setup for language sanskrit.
+Package polyglossia Info: Option: Sanskrit, numerals=devanagari.
+Lua-only attribute polyglossia_punct = 4)
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Shobhika/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Shobhika/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Shobhika(0)' created for font 'Shobhika'
+(fontspec)             with options
+(fontspec)             [Renderer=Harfbuzz,Script=Devanagari,Renderer=HarfBuzz].
+
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:Shobhika:mode=harf;script=dev2;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:Shobhika/B:mode=harf;script=dev2;language=dflt;
+"
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/gloss-thai.ldf
+File: gloss-thai.ldf polyglossia: module for Thai
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'Garuda(0)' created for font 'Garuda' with
+(fontspec)             options
+(fontspec)             [Renderer=Harfbuzz,Script=Thai,Renderer=HarfBuzz].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:Garuda:mode=harf;script=thai;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:Garuda/B:mode=harf;script=thai;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"name:Garuda/I:mode=harf;script=thai;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"name:Garuda/BI:mode=harf;script=thai;language=dflt;"
+
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/gloss-chinese.ldf
+File: gloss-chinese.ldf polyglossia: module for Chinese
+Package polyglossia Info: Option: Chinese, variant=simplified.
+\c@TempJNum=\count363
+)
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/gloss-japanese.ldf
+File: gloss-japanese.ldf polyglossia: module for Japanese
+\c@TempJNum=\count364
+)
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/gloss-korean.ldf
+File: gloss-korean.ldf polyglossia: module for Korean
+Package polyglossia Info: Option: Korean, swapstrings=all.
+\xpg@attr@korean=\attribute5
+\xpg@attr@autojosa=\attribute6
+Removing  `luaotfload.node_processor' from `pre_linebreak_filter'.
+Inserting `polyglossia.lang_korean' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Removing  `luaotfload.node_processor' from `hpack_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
+Inserting `polyglossia.lang_korean' in `hpack_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.)
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FandolSong-Regular/BI" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FandolSong-Regular/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FandolSong-Regular/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'FandolSong-Regular(0)' created for font
+(fontspec)             'FandolSong-Regular' with options
+(fontspec)             [Renderer=Harfbuzz,Script=CJK].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:FandolSong-Regular:mode=harf;script=hani;langua
+ge=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "HaranoAjiMincho-Regular/BI" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "HaranoAjiMincho-Regular/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "HaranoAjiMincho-Regular/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'HaranoAjiMincho-Regular(0)' created for
+(fontspec)             font 'HaranoAjiMincho-Regular' with options
+(fontspec)             [Renderer=Harfbuzz,Script=CJK].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:HaranoAjiMincho-Regular:mode=harf;script=hani;l
+anguage=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "UnBatang/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "UnBatang/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'UnBatang(0)' created for font 'UnBatang'
+(fontspec)             with options [Renderer=Harfbuzz,Script=Hangul].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:UnBatang:mode=harf;script=hang;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:UnBatang/B:mode=harf;script=hang;language=dflt;
+"
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/gloss-georgian.ldf
+File: gloss-georgian.ldf polyglossia: module for Georgian
+Module polyglossia Info: Language data for georgian
+(polyglossia)            hyphenation	
+(polyglossia)            loader	loadhyph-ka.tex
+(polyglossia)            lefthyphenmin	1
+(polyglossia)            righthyphenmin	2
+(polyglossia)            synonyms	
+(polyglossia)            patterns	hyph-ka.pat.txt on input line 15
+Module polyglossia Info: Language georgian was not yet loaded; created with id 7
+ on input line 15
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/babelsh.def
+File: babelsh.def 2022/06/21 Babel common definitions for shorthands
+ Taken verbatim from babel files (2022/06/06 v3.76)
+)
+Package babel Info: Making " an active character on input line 48.
+)
+
+Package fontspec Info: 
+(fontspec)             Script 'Georgian' not explicitly supported within font
+(fontspec)             'FreeSerif'. Check the typeset output, and if it is
+(fontspec)             okay then ignore this warning. Otherwise a different
+(fontspec)             font should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'FreeSerif(0)' created for font 'FreeSerif'
+(fontspec)             with options [Renderer=Harfbuzz,Script=Georgian].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif:mode=harf;script=geor;language=dflt;"
+
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif:mode=harf;script=geor;language=dflt;+
+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif/B:mode=harf;script=geor;language=dflt
+;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif/B:mode=harf;script=geor;language=dflt
+;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif/I:mode=harf;script=geor;language=dflt
+;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif/BI:mode=harf;script=geor;language=dfl
+t;"
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/gloss-armenian.ldf
+File: gloss-armenian.ldf polyglossia: module for Armenian
+Module polyglossia Info: Language data for armenian
+(polyglossia)            hyphenation	
+(polyglossia)            loader	loadhyph-hy.tex
+(polyglossia)            lefthyphenmin	1
+(polyglossia)            righthyphenmin	2
+(polyglossia)            synonyms	
+(polyglossia)            patterns	hyph-hy.pat.txt on input line 17
+Module polyglossia Info: Language armenian was not yet loaded; created with id 8
+ on input line 17
+Package polyglossia Info: Option: Armenian, variant=western.
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'FreeSerif(1)' created for font 'FreeSerif'
+(fontspec)             with options [Renderer=Harfbuzz,Script=Armenian].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif:mode=harf;script=armn;language=dflt;"
+
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif:mode=harf;script=armn;language=dflt;+
+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif/B:mode=harf;script=armn;language=dflt
+;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif/B:mode=harf;script=armn;language=dflt
+;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif/I:mode=harf;script=armn;language=dflt
+;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif/BI:mode=harf;script=armn;language=dfl
+t;"
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/polyglossia/gloss-coptic.ldf
+File: gloss-coptic.ldf polyglossia: module for Coptic
+Module polyglossia Info: Language data for coptic
+(polyglossia)            hyphenation	
+(polyglossia)            loader	loadhyph-cop.tex
+(polyglossia)            lefthyphenmin	1
+(polyglossia)            righthyphenmin	1
+(polyglossia)            synonyms	
+(polyglossia)            patterns	hyph-cop.pat.txt on input line 15
+Module polyglossia Info: Language coptic was not yet loaded; created with id 9 o
+n input line 15
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'FreeSerif(2)' created for font 'FreeSerif'
+(fontspec)             with options [Renderer=Harfbuzz,Script=Coptic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif:mode=harf;script=copt;language=dflt;"
+
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif:mode=harf;script=copt;language=dflt;+
+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif/B:mode=harf;script=copt;language=dflt
+;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif/B:mode=harf;script=copt;language=dflt
+;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif/I:mode=harf;script=copt;language=dflt
+;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"name:FreeSerif/BI:mode=harf;script=copt;language=dfl
+t;"
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/tipa/tipa.sty
+Package: tipa 2002/08/08 TIPA version 1.1
+
+(c:/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+
+(c:/texlive/2024/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+LaTeX Font Info:    Trying to load font information for T3+lmss on input line 3
+57.
+LaTeX Font Info:    No file T3lmss.fd. on input line 357.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 35
+7.
+
+(c:/texlive/2024/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+
+LaTeX Font Warning: Font shape `T3/lmss/m/n' undefined
+(Font)              using `T3/cmr/m/n' instead on input line 357.
+
+))) (c:/texlive/2024/texmf-dist/tex/latex/tipa/tipx.sty
+Package: tipx 2003/01/01 TIPX version 1.2
+))
+(c:/texlive/2024/texmf-dist/tex/latex/tipa/extraipa.sty) (./config/04_math.sty
+Package: config/04_math Paquetes de matemáticas y remapeos de cálculo
+
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip67
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks34
+\ex@=\dimen197
+))
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen198
+)
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count365
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count366
+\leftroot@=\count367
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count368
+\DOTSCASE@=\count369
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box108
+\strutbox@=\box109
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen199
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count370
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count371
+\dotsspace@=\muskip18
+\c@parentequation=\count372
+\dspbrk@lvl=\count373
+\tag@help=\toks35
+\row@=\count374
+\column@=\count375
+\maxfields@=\count376
+\andhelp@=\toks36
+\eqnshift@=\dimen256
+\alignsep@=\dimen257
+\tagshift@=\dimen258
+\tagwidth@=\dimen259
+\totwidth@=\dimen260
+\lineht@=\dimen261
+\@envbody=\toks37
+\multlinegap=\skip68
+\multlinetaggap=\skip69
+\mathdisplay@stack=\toks38
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2024/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks39
+\thm@bodyfont=\toks40
+\thm@headfont=\toks41
+\thm@notefont=\toks42
+\thm@headpunct=\toks43
+\thm@preskip=\skip70
+\thm@postskip=\skip71
+\thm@headsep=\skip72
+\dth@everypar=\toks44
+)
+(c:/texlive/2024/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
+
+(c:/texlive/2024/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count377
+\l_MT_multwidth_dim=\dimen262
+\origjot=\skip73
+\l_MT_shortvdotswithinadjustabove_dim=\dimen263
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen264
+\l_MT_above_intertext_sep=\dimen265
+\l_MT_below_intertext_sep=\dimen266
+\l_MT_above_shortintertext_sep=\dimen267
+\l_MT_below_shortintertext_sep=\dimen268
+\xmathstrut@box=\box110
+\xmathstrut@dim=\dimen269
+)
+(c:/texlive/2024/texmf-dist/tex/latex/oberdiek/centernot.sty
+Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(c:/texlive/2024/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup6
+)
+(c:/texlive/2024/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(c:/texlive/2024/texmf-dist/tex/generic/witharrows/witharrows.sty
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen270
+\pgfmath@count=\count378
+\pgfmath@box=\box111
+\pgfmath@toks=\toks45
+\pgfmath@stack@operand=\toks46
+\pgfmath@stack@operation=\toks47
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count379
+))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen271
+\pgf@picmaxx=\dimen272
+\pgf@picminy=\dimen273
+\pgf@picmaxy=\dimen274
+\pgf@pathminx=\dimen275
+\pgf@pathmaxx=\dimen276
+\pgf@pathminy=\dimen277
+\pgf@pathmaxy=\dimen278
+\pgf@xx=\dimen279
+\pgf@xy=\dimen280
+\pgf@yx=\dimen281
+\pgf@yy=\dimen282
+\pgf@zx=\dimen283
+\pgf@zy=\dimen284
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen285
+\pgf@path@lasty=\dimen286
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen287
+\pgf@shorten@start@additional=\dimen288
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box112
+\pgf@hbox=\box113
+\pgf@layerbox@main=\box114
+\pgf@picture@serial@count=\count380
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen289
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen290
+\pgf@pt@y=\dimen291
+\pgf@pt@temp=\dimen292
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen293
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen294
+\pgf@sys@shading@range@num=\count381
+\pgf@shadingcount=\count382
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box115
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box116
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen295
+\pgf@nodesepend=\dimen296
+)
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen297
+\pgffor@skip=\dimen298
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
+))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count383
+\pgfplotmarksize=\dimen299
+)
+\tikz@lastx=\dimen300
+\tikz@lasty=\dimen301
+\tikz@lastxsaved=\dimen302
+\tikz@lastysaved=\dimen303
+\tikz@lastmovetox=\dimen304
+\tikz@lastmovetoy=\dimen305
+\tikzleveldistance=\dimen306
+\tikzsiblingdistance=\dimen307
+\tikz@figbox=\box117
+\tikz@figbox@bg=\box118
+\tikz@tempbox=\box119
+\tikz@tempbox@bg=\box120
+\tikztreelevel=\count384
+\tikznumberofchildren=\count385
+\tikznumberofcurrentchild=\count386
+\tikz@fig@count=\count387
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count388
+\pgfmatrixcurrentcolumn=\count389
+\pgf@matrix@numberofcolumns=\count390
+)
+\tikz@expandcount=\count391
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.cod
+e.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen308
+\pgfarrowlength=\dimen309
+\pgfarrowwidth=\dimen310
+\pgfarrowlinewidth=\dimen311
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.tex
+File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransform
+ations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgftransformnonlinearflatness=\dimen312
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.cod
+e.tex
+File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@curvilinear@time@a=\dimen313
+\pgf@curvilinear@length@a=\dimen314
+\pgf@curvilinear@length@b=\dimen315
+\pgf@curvilinear@length@c=\dimen316
+\pgf@curvilinear@length@d=\dimen317
+)
+\pgf@arrows@the@rigidity=\dimen318
+)
+Package: witharrows 2023/08/24 v2.8b Draws arrows for explanations on the right
+
+ (c:/texlive/2024/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box121
+\sift@deathcycles=\count392
+\@vwid@loff=\dimen319
+\@vwid@roff=\dimen320
+)
+\g__witharrows_last_env_int=\count393
+\l__witharrows_pos_env_int=\count394
+\l__witharrows_pos_arrow_int=\count395
+\g__witharrows_arrow_int=\count396
+\g__witharrows_line_int=\count397
+\g__witharrows_col_int=\count398
+\g__witharrows_static_col_int=\count399
+\l__witharrows_nb_cols_int=\count400
+\l__witharrows_arrow_width_dim=\dimen321
+\l__witharrows_up_and_down_radius_dim=\dimen322
+\l__witharrows_xoffset_for_o_arrows_dim=\dimen323
+\l__witharrows_max_length_of_arrow_dim=\dimen324
+\l__witharrows_ygap_dim=\dimen325
+\l__witharrows_ystart_dim=\dimen326
+\l__witharrows_xoffset_dim=\dimen327
+\l__witharrows_interline_skip=\skip74
+\l__witharrows_start_adjust_dim=\dimen328
+\l__witharrows_end_adjust_dim=\dimen329
+\l__witharrows_mathindent_skip=\skip75
+))
+(./config/05_symbols.sty
+Package: config/05_symbols Símbolos personalizados, conjuntos, iconos
+
+(c:/texlive/2024/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty
+Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
+)
+(c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(c:/texlive/2024/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+
+(c:/texlive/2024/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(c:/texlive/2024/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic.te
+x)
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FontAwesome/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FontAwesome/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FontAwesome/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'FontAwesome(0)' created for font
+(fontspec)             'FontAwesome' with options [Renderer=Harfbuzz].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:FontAwesome:mode=harf;language=dflt;"
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-xeluatex.t
+ex)) (c:/texlive/2024/texmf-dist/tex/latex/worldflags/worldflags.sty
+(c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+
+
+Package etex Warning: Extended allocation already in use.
+(etex)                etex.sty code will not be used.
+(etex)                To force etex package to load, add
+(etex)                \RequirePackage{etex}
+(etex)                at the start of the document.
+
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.te
+x
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.g
+eometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.m
+isc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.s
+ymbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.a
+rrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.callouts.code.tex
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.c
+allouts.code.tex))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.m
+ultipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box122
+\pgfnodeparttwobox=\box123
+\pgfnodepartthreebox=\box124
+\pgfnodepartfourbox=\box125
+\pgfnodeparttwentybox=\box126
+\pgfnodepartnineteenbox=\box127
+\pgfnodeparteighteenbox=\box128
+\pgfnodepartseventeenbox=\box129
+\pgfnodepartsixteenbox=\box130
+\pgfnodepartfifteenbox=\box131
+\pgfnodepartfourteenbox=\box132
+\pgfnodepartthirteenbox=\box133
+\pgfnodeparttwelvebox=\box134
+\pgfnodepartelevenbox=\box135
+\pgfnodeparttenbox=\box136
+\pgfnodepartninebox=\box137
+\pgfnodeparteightbox=\box138
+\pgfnodepartsevenbox=\box139
+\pgfnodepartsixbox=\box140
+\pgfnodepartfivebox=\box141
+)))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarymath.code.tex
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryfpu.code.tex
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex))
+\tikz@math@for@depth=\count401
+\tikz@math@dimen=\dimen330
+\tikz@math@toks=\toks50
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.text.code.tex
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.code.tex
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
+ex
+\pgfdecoratedcompleteddistance=\dimen331
+\pgfdecoratedremainingdistance=\dimen332
+\pgfdecoratedinputsegmentcompleteddistance=\dimen333
+\pgfdecoratedinputsegmentremainingdistance=\dimen334
+\pgf@decorate@distancetomove=\dimen335
+\pgf@decorate@repeatstate=\count402
+\pgfdecorationsegmentamplitude=\dimen336
+\pgfdecorationsegmentlength=\dimen337
+)
+\tikz@lib@dec@box=\box142
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.text.code.tex
+\pgf@lib@dec@text@box=\box143
+)
+\tikz@lib@dec@te@box=\box144
+)
+\fl@gwidth=\dimen338
+\fl@glength=\dimen339
+\fl@gframe=\dimen340
+)
+(c:/texlive/2024/texmf-dist/tex/latex/ccicons/ccicons.sty
+Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
+)
+(c:/texlive/2024/texmf-dist/tex/latex/marvosym/marvosym.sty
+Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
+)
+\tmpnum=\count403
+)
+(./config/06_tikz.sty
+Package: config/06_tikz Configuración de TikZ y diagramas
+
+(c:/texlive/2024/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brary3d.code.tex
+File: tikzlibrary3d.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen341
+))) (c:/texlive/2024/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2024/05/25{} The CircuiTikz circuit drawing package version
+ 1.6.9
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarybending.code.tex
+File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@count@a=\count404
+\pgf@circ@count@b=\count405
+\pgf@circ@count@c=\count406
+\pgf@circ@res@up=\dimen342
+\pgf@circ@res@down=\dimen343
+\pgf@circ@res@zero=\dimen344
+\pgf@circ@res@left=\dimen345
+\pgf@circ@res@right=\dimen346
+\pgf@circ@res@other=\dimen347
+\pgf@circ@res@step=\dimen348
+\pgf@circ@res@temp=\dimen349
+\pgf@circ@Rlen=\dimen350
+\pgf@circ@scaled@Rlen=\dimen351
+\pgfstartlinewidth=\dimen352
+)
+(c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
+\ctikz@scratchbox=\box145
+)
+(c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
+\pgf@circ@res@count=\count407
+)
+(c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
+\pgfcirc@labelshift=\dimen353
+)
+(c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex)))
+(./config/07_toc.sty
+Package: config/07_toc Configuración de la Tabla de Contenidos (ToC) y partes
+
+(c:/texlive/2024/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2023/10/27 v2.16 TOC entries
+\ttl@leftsep=\dimen354
+))
+(./config/08_header_footnote.sty
+Package: config/08_header_footnote Cabeceras, pies de página y notas al pie
+
+(c:/texlive/2024/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
+\FN@temptoken=\toks51
+\footnotemargin=\dimen355
+\@outputbox@depth=\dimen356
+Package footmisc Info: Declaring symbol style bringhurst on input line 696.
+Package footmisc Info: Declaring symbol style chicago on input line 704.
+Package footmisc Info: Declaring symbol style wiley on input line 713.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 744.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
+.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip76
+\f@nch@O@elh=\skip77
+\f@nch@O@erh=\skip78
+\f@nch@O@olh=\skip79
+\f@nch@O@orh=\skip80
+\f@nch@O@elf=\skip81
+\f@nch@O@erf=\skip82
+\f@nch@O@olf=\skip83
+\f@nch@O@orf=\skip84
+))
+(./config/09_titles.sty
+Package: config/09_titles Formato y diseño de títulos de capítulo y seccione
+s
+
+(c:/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box146
+\beforetitleunit=\skip85
+\aftertitleunit=\skip86
+\ttl@plus=\dimen357
+\ttl@minus=\dimen358
+\ttl@toksa=\toks52
+\titlewidth=\dimen359
+\titlewidthlast=\dimen360
+\titlewidthfirst=\dimen361
+))
+(./config/10_tables.sty
+Package: config/10_tables Configuración de tablas y tipos de columnas personal
+izados
+
+(c:/texlive/2024/texmf-dist/tex/latex/xltabular/xltabular.sty
+Package: xltabular 2020/11/04 v0.2e `xltabular' package (hv,RN)
+
+(c:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen362
+\TX@old@table=\dimen363
+\TX@old@col=\dimen364
+\TX@target=\dimen365
+\TX@delta=\dimen366
+\TX@cols=\count408
+\TX@ftn=\toks53
+)
+(c:/texlive/2024/texmf-dist/tex/latex/ltablex/ltablex.sty
+Package: ltablex 2014/08/13 v1.1 Modified tabularx
+
+(c:/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
+\LTleft=\skip87
+\LTright=\skip88
+\LTpre=\skip89
+\LTpost=\skip90
+\LTchunksize=\count409
+\LTcapwidth=\dimen367
+\LT@head=\box147
+\LT@firsthead=\box148
+\LT@foot=\box149
+\LT@lastfoot=\box150
+\LT@gbox=\box151
+\LT@cols=\count410
+\LT@rows=\count411
+\c@LT@tables=\count412
+\c@LT@chunks=\count413
+\LT@p@ftn=\toks54
+)))
+(c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip91
+\multirow@cntb=\count414
+\multirow@dima=\skip92
+\bigstrutjot=\dimen368
+)
+(c:/texlive/2024/texmf-dist/tex/latex/tabularray/tabularray.sty
+Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count415
+\l__tblr_c_int=\count416
+\l__tblr_r_int=\count417
+\l__tblr_d_dim=\dimen369
+\l__tblr_h_dim=\dimen370
+\l__tblr_o_dim=\dimen371
+\l__tblr_p_dim=\dimen372
+\l__tblr_q_dim=\dimen373
+\l__tblr_r_dim=\dimen374
+\l__tblr_s_dim=\dimen375
+\l__tblr_t_dim=\dimen376
+\l__tblr_v_dim=\dimen377
+\l__tblr_w_dim=\dimen378
+\l__tblr_a_box=\box152
+\l__tblr_b_box=\box153
+\l__tblr_c_box=\box154
+\l__tblr_d_box=\box155
+\g__tblr_table_count_int=\count418
+\c@colnum=\count419
+\c@rowcount=\count420
+\c@colcount=\count421
+\abovesep=\dimen379
+\belowsep=\dimen380
+\leftsep=\dimen381
+\rightsep=\dimen382
+\g_tblr_level_int=\count422
+\g__tblr_data_row_key_count_int=\count423
+\g__tblr_data_column_key_count_int=\count424
+\g__tblr_data_cell_key_count_int=\count425
+\g__tblr_array_int=\count426
+\l__tblr_key_count_int=\count427
+\l__tblr_key_quotient_int=\count428
+\l__tblr_key_quotient_two_int=\count429
+\l__tblr_key_remainder_int=\count430
+\g__tblr_data_str_value_count_int=\count431
+\rulewidth=\dimen383
+\l__tblr_strut_dp_dim=\dimen384
+\l__tblr_strut_ht_dim=\dimen385
+\g__tblr_cell_wd_dim=\dimen386
+\g__tblr_cell_ht_dim=\dimen387
+\g__tblr_cell_head_dim=\dimen388
+\g__tblr_cell_foot_dim=\dimen389
+\l__column_target_dim=\dimen390
+\l__tblr_caption_box=\box156
+\l__tblr_caption_left_box=\box157
+\l__tblr_row_head_box=\box158
+\l__tblr_row_foot_box=\box159
+\l__tblr_row_head_foot_dim=\dimen391
+\tablewidth=\dimen392
+\l__tblr_table_firsthead_box=\box160
+\l__tblr_table_middlehead_box=\box161
+\l__tblr_table_lasthead_box=\box162
+\l__tblr_table_firstfoot_box=\box163
+\l__tblr_table_middlefoot_box=\box164
+\l__tblr_table_lastfoot_box=\box165
+\l__tblr_remain_height_dim=\dimen393
+\l__tblr_long_from_int=\count432
+\l__tblr_long_to_int=\count433
+\l__tblr_curr_i_int=\count434
+\l__tblr_prev_i_int=\count435
+\l__tblr_table_page_int=\count436
+\l__tblr_table_head_box=\box166
+\l__tblr_table_foot_box=\box167
+\l__tblr_table_head_foot_dim=\dimen394
+\l__tblr_table_head_body_foot_dim=\dimen395
+\l__tblr_table_box=\box168
+\l__tblr_table_hlines_box=\box169
+\l__tblr_hline_box=\box170
+\l__tblr_row_box=\box171
+\l__tblr_col_o_wd_dim=\dimen396
+\l__tblr_col_b_wd_dim=\dimen397
+\l__tblr_hline_leftskip_dim=\dimen398
+\l__tblr_hline_rightskip_dim=\dimen399
+\l__tblr_row_ht_dim=\dimen400
+\l__tblr_row_dp_dim=\dimen401
+\l__tblr_row_abovesep_dim=\dimen402
+\l__tblr_row_belowsep_dim=\dimen403
+\l__tblr_row_vlines_box=\box172
+\l__tblr_vline_box=\box173
+\l__tblr_cell_box=\box174
+\l__row_upper_dim=\dimen404
+\l__row_lower_dim=\dimen405
+\l__row_vpace_dim=\dimen406
+\l__tblr_vline_aboveskip_dim=\dimen407
+\l__tblr_vline_belowskip_dim=\dimen408
+\l__tblr_cell_wd_dim=\dimen409
+\l__tblr_cell_ht_dim=\dimen410
+\l__tblr_diag_box=\box175
+))
+(./config/11_tcolorbox.sty
+Package: config/11_tcolorbox Cajas personalizadas y bloques de aviso con tcolor
+box
+
+(c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+
+(c:/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks55
+\verbatim@line=\toks56
+\verbatim@in@stream=\read3
+)
+(c:/texlive/2024/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+)
+\tcb@titlebox=\box176
+\tcb@upperbox=\box177
+\tcb@lowerbox=\box178
+\tcb@phantombox=\box179
+\c@tcbbreakpart=\count437
+\c@tcblayer=\count438
+\c@tcolorbox@number=\count439
+\l__tcobox_tmpa_box=\box180
+\l__tcobox_tmpa_dim=\dimen411
+\tcb@temp=\box181
+\tcb@temp=\box182
+\tcb@temp=\box183
+\tcb@temp=\box184
+
+(c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+\c@tcbrastercolumn=\count440
+\c@tcbrasterrow=\count441
+\c@tcbrasternum=\count442
+\c@tcbraster=\count443
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box185
+)) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(c:/texlive/2024/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 2 on input line 23.
+\tcb@testbox=\box186
+\tcb@totalupperbox=\box187
+\tcb@totallowerbox=\box188
+)
+(c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+\tcbfitdim=\dimen412
+\tcb@lowerfitdim=\dimen413
+\tcb@upperfitdim=\dimen414
+\tcb@cur@hbadness=\count444
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+(c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count445
+\lst@gtempboxa=\box189
+\lst@token=\toks57
+\lst@length=\count446
+\lst@currlwidth=\dimen415
+\lst@column=\count447
+\lst@pos=\count448
+\lst@lostspace=\dimen416
+\lst@width=\dimen417
+\lst@newlines=\count449
+\lst@lineno=\count450
+\lst@maxwidth=\dimen418
+
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
+\c@lstnumber=\count451
+\lst@skipnumbers=\count452
+\lst@framebox=\box190
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/05/25 1.10b listings configuration
+))
+Package: listings 2024/05/25 1.10b (Carsten Heinz)
+
+(c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+)
+\c@tcblisting=\count453
+))
+Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
+Library `listings` is loaded instead. on input line 29.
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+))) (./config/12_theorem_environments.sty
+Package: config/12_theorem_environments Entornos de teoremas, definiciones y s
+ímbolos QED con contador compartido
+\c@defin=\count454
+) (./config/13_code.sty
+
+LaTeX Warning: You have requested package `config/13_code',
+               but the package provides `13_code'.
+
+Package: 13_code Configuración y entornos de código con listings y tcolorbox
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
+))
+(./config/90_references.sty
+Package: config/90_references Comandos personalizados para referencias cruzadas
+, citas e hipervínculos
+) (./config/91_bibliography.sty
+Package: config/91_bibliography Bibliografia
+)
+(./config/99_language.sty
+Package: config/99_language Selección de la lengua
+ (./config/languages/Lengua.sty))
+(./Codex_Argumentorum_Catholicorum.aux)
+\openout1 = Codex_Argumentorum_Catholicorum.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+9.
+
+(c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+
+(c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count455
+\scratchdimen=\dimen419
+\scratchbox=\box191
+\nofMPsegments=\count456
+\nofMParguments=\count457
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count458
+\MPscratchDim=\dimen420
+\MPnumerator=\count459
+\makeMPintoPDFobject=\count460
+\everyMPtoPDFconversion=\toks59
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=674.33032pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-23.91173pt
+* \headheight=15.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=34.8pt plus 9.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+(c:/texlive/2024/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 49.
+
+(./Codex_Argumentorum_Catholicorum.out) (./Codex_Argumentorum_Catholicorum.out)
+\@outlinefile=\write4
+
+\openout4 = Codex_Argumentorum_Catholicorum.out
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 49.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 49.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 49.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 49.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 49.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 49.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 49.
+LaTeX Font Info:    Redeclaring math accent \check on input line 49.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 49.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 49.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 49.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 49.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 49.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/cmun(0)/m/n on input line 49.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 49.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/cmun(0)/m/n on input line 49.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/cmun(0)/m/n --> TU/cmun(0)/m/n on input line 49.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/cmun(0)/m/it on input line 49.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/cmun(0)/b/n on input line 49.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 49.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/FiraCode-Regular(0)/m/n on input li
+ne 49.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/cmun(0)/m/n --> TU/cmun(0)/b/n on input line 49.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/cmun(0)/b/it on input line 49.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 49.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/FiraCode-Regular(0)/b/n on input li
+ne 49.
+(c:/texlive/2024/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
+)
+\c@lstlisting=\count461
+LaTeX Info: Redefining \rmfamily on input line 49.
+LaTeX Info: Redefining \sffamily on input line 49.
+LaTeX Info: Redefining \ttfamily on input line 49.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(100.0pt, 397.50787pt, 100.0pt)
+* v-part:(T,H,B)=(115.0pt, 630.04684pt, 100.0pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=397.50787pt
+* \textheight=630.04684pt
+* \oddsidemargin=27.73001pt
+* \evensidemargin=27.73001pt
+* \topmargin=2.73001pt
+* \headheight=15.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=34.8pt plus 9.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+esint on input line 5
+1.
+
+(c:/texlive/2024/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 5
+1.
+
+(c:/texlive/2024/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+<./images/LOGO_blanc.png, id=147, 2445.135pt x 2479.2625pt>
+File: ./images/LOGO_blanc.png Graphic file (type png)
+<use ./images/LOGO_blanc.png>
+Package luatex.def Info: ./images/LOGO_blanc.png  used on input line 51.
+(luatex.def)             Requested size: 61.1133pt x 61.96628pt.
+
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [1
+
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./images/LOGO_bla
+nc.png>]
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (7.99915pt too wide) in paragraph at lines 53--53
+ [][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for T3+cmun(0) on input lin
+e 54.
+LaTeX Font Info:    No file T3cmun(0).fd. on input line 54.
+
+LaTeX Font Warning: Font shape `T3/cmun(0)/m/n' undefined
+(Font)              using `T3/cmr/m/n' instead
+(Font)              for symbol `textturna' on input line 54.
+
+
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
+
+]
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (7.99915pt too wide) in paragraph at lines 59--59
+ [][] 
+ []
+
+(./Codex_Argumentorum_Catholicorum.toc
+LaTeX Info: Redefining \rmfamily on input line 1.
+LaTeX Info: Redefining \sffamily on input line 1.
+LaTeX Info: Redefining \ttfamily on input line 1.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng)
+\tf@toc=\write5
+
+\openout5 = Codex_Argumentorum_Catholicorum.toc
+
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [2
+
+]
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (7.99915pt too wide) in paragraph at lines 64--64
+ [][] 
+ []
+
+
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [3
+
+]
+Chapter 1.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (7.99915pt too wide) in paragraph at lines 68--68
+ [][] 
+ []
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [4
+
+]
+Chapter 2.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (7.99915pt too wide) in paragraph at lines 81--81
+ [][] 
+ []
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 83.
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 165 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 165 (nil) defines no feature for script latn with lan
+guage eng
+Overfull \hbox (6.8284pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [5
+
+]
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 192 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 192 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 192 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 165 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 165 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 165 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 165 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (6.8284pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (1.13788pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 36.60858pt, for example:
+(fancyhdr)                \setlength{\headheight}{36.60858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-21.60858pt}.
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [6]
+LaTeX Info: Redefining \rmfamily on input line 132.
+LaTeX Info: Redefining \sffamily on input line 132.
+LaTeX Info: Redefining \ttfamily on input line 132.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+LaTeX Info: Redefining \rmfamily on input line 155.
+LaTeX Info: Redefining \sffamily on input line 155.
+LaTeX Info: Redefining \ttfamily on input line 155.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+LaTeX Info: Redefining \rmfamily on input line 156.
+LaTeX Info: Redefining \sffamily on input line 156.
+LaTeX Info: Redefining \ttfamily on input line 156.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+LaTeX Info: Redefining \rmfamily on input line 157.
+LaTeX Info: Redefining \sffamily on input line 157.
+LaTeX Info: Redefining \ttfamily on input line 157.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+LaTeX Info: Redefining \rmfamily on input line 169.
+LaTeX Info: Redefining \sffamily on input line 169.
+LaTeX Info: Redefining \ttfamily on input line 169.
+LaTeX Info: Redefining \rmfamily on input line 169.
+LaTeX Info: Redefining \sffamily on input line 169.
+LaTeX Info: Redefining \ttfamily on input line 169.
+
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (1.13788pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 36.60858pt, for example:
+(fancyhdr)                \setlength{\headheight}{36.60858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-21.60858pt}.
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [7]
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+LaTeX Info: Redefining \rmfamily on input line 176.
+LaTeX Info: Redefining \sffamily on input line 176.
+LaTeX Info: Redefining \ttfamily on input line 176.
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 165 (nil) defines no feature for script latn with lan
+guage eng
+LaTeX Info: Redefining \rmfamily on input line 176.
+LaTeX Info: Redefining \sffamily on input line 176.
+LaTeX Info: Redefining \ttfamily on input line 176.
+LaTeX Info: Redefining \rmfamily on input line 176.
+LaTeX Info: Redefining \sffamily on input line 176.
+LaTeX Info: Redefining \ttfamily on input line 176.
+LaTeX Info: Redefining \rmfamily on input line 180.
+LaTeX Info: Redefining \sffamily on input line 180.
+LaTeX Info: Redefining \ttfamily on input line 180.
+LaTeX Info: Redefining \rmfamily on input line 180.
+LaTeX Info: Redefining \sffamily on input line 180.
+LaTeX Info: Redefining \ttfamily on input line 180.
+LaTeX Info: Redefining \rmfamily on input line 180.
+LaTeX Info: Redefining \sffamily on input line 180.
+LaTeX Info: Redefining \ttfamily on input line 180.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+LaTeX Info: Redefining \rmfamily on input line 187.
+LaTeX Info: Redefining \sffamily on input line 187.
+LaTeX Info: Redefining \ttfamily on input line 187.
+
+Overfull \hbox (6.8284pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (1.13788pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 36.60858pt, for example:
+(fancyhdr)                \setlength{\headheight}{36.60858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-21.60858pt}.
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [8]
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (1.13788pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 36.60858pt, for example:
+(fancyhdr)                \setlength{\headheight}{36.60858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-21.60858pt}.
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [9]
+Chapter 3.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (7.99915pt too wide) in paragraph at lines 209--209
+ [][] 
+ []
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+LaTeX Info: Redefining \rmfamily on input line 219.
+LaTeX Info: Redefining \sffamily on input line 219.
+LaTeX Info: Redefining \ttfamily on input line 219.
+LaTeX Info: Redefining \rmfamily on input line 221.
+LaTeX Info: Redefining \sffamily on input line 221.
+LaTeX Info: Redefining \ttfamily on input line 221.
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 165 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 131 (nil) defines no feature for script latn with lan
+guage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 165 (nil) defines no feature for script latn with lan
+guage eng
+LaTeX Info: Redefining \rmfamily on input line 225.
+LaTeX Info: Redefining \sffamily on input line 225.
+LaTeX Info: Redefining \ttfamily on input line 225.
+LaTeX Info: Redefining \rmfamily on input line 228.
+LaTeX Info: Redefining \sffamily on input line 228.
+LaTeX Info: Redefining \ttfamily on input line 228.
+LaTeX Info: Redefining \rmfamily on input line 228.
+LaTeX Info: Redefining \sffamily on input line 228.
+LaTeX Info: Redefining \ttfamily on input line 228.
+LaTeX Info: Redefining \rmfamily on input line 228.
+LaTeX Info: Redefining \sffamily on input line 228.
+LaTeX Info: Redefining \ttfamily on input line 228.
+LaTeX Info: Redefining \rmfamily on input line 228.
+LaTeX Info: Redefining \sffamily on input line 228.
+LaTeX Info: Redefining \ttfamily on input line 228.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (6.8284pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [10
+
+]
+Chapter 4.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (7.99915pt too wide) in paragraph at lines 249--249
+ [][] 
+ []
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [11
+
+]
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (1.13788pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 36.60858pt, for example:
+(fancyhdr)                \setlength{\headheight}{36.60858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-21.60858pt}.
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [12]
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (15.11987pt too wide) in paragraph at lines 361--362
+[]\TU/cmun(0)/b/n/12 Mar-cos 16.16 (2ª parte):
+ []
+
+
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (1.13788pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 36.60858pt, for example:
+(fancyhdr)                \setlength{\headheight}{36.60858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-21.60858pt}.
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [13]
+LaTeX Info: Redefining \rmfamily on input line 365.
+LaTeX Info: Redefining \sffamily on input line 365.
+LaTeX Info: Redefining \ttfamily on input line 365.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+LaTeX Info: Redefining \rmfamily on input line 375.
+LaTeX Info: Redefining \sffamily on input line 375.
+LaTeX Info: Redefining \ttfamily on input line 375.
+LaTeX Info: Redefining \rmfamily on input line 379.
+LaTeX Info: Redefining \sffamily on input line 379.
+LaTeX Info: Redefining \ttfamily on input line 379.
+LaTeX Info: Redefining \rmfamily on input line 379.
+LaTeX Info: Redefining \sffamily on input line 379.
+LaTeX Info: Redefining \ttfamily on input line 379.
+LaTeX Info: Redefining \rmfamily on input line 379.
+LaTeX Info: Redefining \sffamily on input line 379.
+LaTeX Info: Redefining \ttfamily on input line 379.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (1.13788pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 36.60858pt, for example:
+(fancyhdr)                \setlength{\headheight}{36.60858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-21.60858pt}.
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [14]
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng
+Overfull \hbox (1.13788pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 36.60858pt, for example:
+(fancyhdr)                \setlength{\headheight}{36.60858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-21.60858pt}.
+
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage eng [15]
+<images/LOGO_groc_1.png, id=323, 2445.135pt x 2479.2625pt>
+File: images/LOGO_groc_1.png Graphic file (type png)
+<use images/LOGO_groc_1.png>
+Package luatex.def Info: images/LOGO_groc_1.png  used on input line 430.
+(luatex.def)             Requested size: 366.75443pt x 371.87334pt.
+LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
+(Font)              scaled to size 40.0pt on input line 430.
+
+
+luaotfload | aux : font no 215 (nil) defines no feature for script latn with lan
+guage eng [16<./images/LOGO_groc_1.png>] (./Codex_Argumentorum_Catholicorum.aux
+)
+ ***********
+LaTeX2e <2024-06-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `Codex_Argumentorum_Catholicorum.out' has not
+ changed.
+(rerunfilecheck)             Checksum: 42DEA2ED546E0DE7A67F17984D006D58;4117.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 69233 strings out of 475931
+ 125086,2848258 words of node,token memory allocated
+ 1746 words of node memory still in use:
+   30 hlist, 2 vlist, 14 rule, 26 dir, 12 glue, 5 kern, 1 penalty, 1 glyph, 117 
+attribute, 75 glue_spec, 117 attribute_list, 2 write, 24 pdf_literal, 24 pdf_col
+orstack nodes
+   avail lists: 1:5,2:1359,3:805,4:126,5:414,6:114,7:5643,8:32,9:767,10:8,11:367
+
+ 90152 multiletter control sequences out of 65536+600000
+ 216 fonts using 168985223 bytes
+ 110i,17n,129p,1219b,1189s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/opentype/public/fontawesome/FontAwesome.otf><c
+:/texlive/2024/texmf-dist/fonts/opentype/public/cm-unicode/cmunbx.otf><c:/texliv
+e/2024/texmf-dist/fonts/opentype/public/cm-unicode/cmunrm.otf><c:/texlive/2024/t
+exmf-dist/fonts/opentype/public/cm-unicode/cmunbi.otf><c:/texlive/2024/texmf-dis
+t/fonts/truetype/public/culmus/HadasimCLM-Regular.ttf><c:/texlive/2024/texmf-dis
+t/fonts/truetype/public/amiri/Amiri-Regular.ttf><c:/texlive/2024/texmf-dist/font
+s/opentype/public/cm-unicode/cmunti.otf><c:/texlive/2024/texmf-dist/fonts/openty
+pe/public/cm-unicode/cmunbx.otf><c:/texlive/2024/texmf-dist/fonts/opentype/publi
+c/cm-unicode/cmunsl.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/cm-uni
+code/cmunrm.otf><c:/texlive/2024/texmf-dist/fonts/type1/public/ccicons/ccicons.p
+fb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2024/texmf-
+dist/fonts/type1/public/tipa/tipa12.pfb>
+Output written on Codex_Argumentorum_Catholicorum.pdf (17 pages, 288887 bytes).
+
+PDF statistics: 440 PDF objects out of 1000 (max. 8388607)
+ 332 compressed objects within 4 object streams
+ 84 named destinations out of 1000 (max. 131072)
+ 464 words of extra memory for PDF output out of 10000 (max. 100000000)
+

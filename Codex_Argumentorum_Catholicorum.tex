@@ -1,0 +1,432 @@
+\documentclass[12pt]{report}
+
+% ==============================================================================
+% CONFIGURACIÓN DEL DOCUMENTO Y METADATOS (Ajusta aquí tus preferencias)
+% ==============================================================================
+
+% Selección de estilo y lengua
+\newcommand{\docstyle}{dark}       % Opciones: dark, formal
+\newcommand{\doclanguage}{es}      % Opciones: la, ca, es, en
+
+% Información básica del documento, usar \textquotesingle per '
+\newcommand{\titlename}{Codex Argvmentorvm Catholicorvm}
+\newcommand{\authorname}{Martí Figverola Giner}
+\newcommand{\subtitle}{}
+\newcommand{\sdate}{Agosto de 2026}
+\newcommand{\pdate}{-}
+\newcommand{\titleheader}{\titlename\ }
+
+% ==============================================================================
+% CARGA DE MÓDULOS DE CONFIGURACIÓN (En orden estricto de dependencias)
+% ==============================================================================
+\usepackage{config/01_colors}       			% Paleta de colores RGB
+\usepackage{config/02_basics}       			% Márgenes, parskip, enumitem, hipervínculos
+\usepackage{config/03_typography}   			% Fuentes, Polyglossia, lengua e IPA           % AQUÍ POT PETAR, CONSULTA L'ARXIU typography
+\usepackage{config/04_math}         			% Paquetes base matemáticos
+\usepackage{config/05_symbols}      			% Símbolos personalizados y atajos
+\usepackage{config/06_tikz}         			% TikZ, CircuiTikZ y entornos fig/graph/circuit
+\usepackage{config/07_toc}       				% Títulos de partes, capítulos y secciones
+\usepackage{config/08_header_footnote}      	% Encabezados (fancyhdr) y reglas superiores TikZ
+\usepackage{config/09_titles}    				% Pie de página, notas al pie y color global
+\usepackage{config/10_tables}       			% Formato de tablas y celdas
+\usepackage{config/11_tcolorbox}    			% Estilo base de cajas tcolorbox
+\usepackage{config/12_theorem_environments}     % Entornos: definición, teorema, ejemplo...
+\usepackage{config/13_code}         			% Bloques de código fuente
+\usepackage{config/90_references}   			% Formato de referencias cruzadas
+\usepackage{config/91_bibliography} 			% Fuentes y bibliografía
+\usepackage{config/99_language}     			% Selección e internacionalización del idioma
+
+% ==============================================================================
+% COMANDOS ESPECÍFICOS DE ESTE DOCUMENTO
+% ==============================================================================
+
+
+
+% ==============================================================================
+% CUERPO DEL DOCUMENTO
+% ==============================================================================
+
+\begin{document}
+	
+	\firstpage{50}	% tamaño texto
+	
+	\chapless{Preface}
+	The author of \textit{\titlename}, Martí Figuerola Giner Sicart Sobrepera Esquius Garcia Corberó Bosch [m\textturna\textfishhookr'\textsubbridge{t}i fi.\textlowering{\textgamma}\textlowering{e}'\textfishhookr\textlowering{o}.\textltilde ä \textyogh i'ne \textsubbar{s}i'kä\textfishhookr\textsubbridge{t} \textsubbar{s}\textlowering{o}.\textlowering{\textbeta}\textfishhookr \textlowering{e}'p\textlowering{e}.\textfishhookr ä \textturna \textsubbar{s}'kiw\textsubbar{s} g\textturna\textfishhookr'\textsubbar{s}i.\textturna\ k\textlowering{o}\textfishhookr.\textlowering{\textbeta}\textlowering{e}'\textfishhookr\textlowering{o} 'b\textopeno \textsubbar{s}k] was born on August 10, 2005 in Barcelona (Spain) at approximately 15:00, and is the main and only author of the complete text. Any type of error in the text is the fault and total responsibility of the author, whenever possible, should be notified.
+	
+	
+	
+	
+	\addtoc
+	
+	
+	
+	
+	\chapless{Introduction}
+	
+
+
+	\chap{Contra Ateos}
+	
+	\section{Problema del Mal}
+	
+	
+	\section{Existencia de Jesús}
+	
+	\section{Anti-ciencia}
+	
+	
+	
+	
+	
+	\chap{Contra Musulmanes}
+	
+	\sectionless{Sobre el Islam}
+	
+	\subsection{Denominaciones Principales}
+	
+	\begin{boxless1}
+		En este libro se contemplará el Islam suní por ser la rama del Islam más influyente. Tampoco es necesario ir muy profundo para tener que ir refutando cada rama del Islam, pues es bastante trivial.
+	\end{boxless1}
+	
+	\subsubsection{Islam Suní} %https://es.wikipedia.org/wiki/Islam#Denominaciones, https://es.wikipedia.org/wiki/Sunismo
+	\varfootnote{Es llamado sunismo la rama suní o sunita, los seguidores son suníes o sunitas.}
+	Cerca del 90\% de los musulmanes son suníes. Creen que Mahoma fue un profeta, un ser humano ejemplar y que deben imitar sus palabras y actos en la forma más exacta posible [Sura 33.21], pues el Corán indica que el profeta Mahoma es un buen ejemplo a seguir. Los hadices describen sus palabras y actos, constituyendo el principal pilar de la doctrina suní.
+	
+	Aceptan la legitimidad de los primeros 4 sucesores de Mahoma (Abu Bakr, Úmar ibn al-Jattab, Uthmán ibn Affán, Ali ibn Abi Tálib). De acuerdo con las tradiciones sunitas, Mahoma no designó claramente un sucesor y la comunidad musulmana actuó de acuerdo con su Sunna eligiendo a su suegro Abu Bakr como primer califa.
+	
+	\subsubsection{Islam Chií}
+	\varfootnote{Es llamado chiismo la rama chií o chiita o chia, los seguidores son chiíes o chiitas.}	
+	Cerca del 10\% de los musulmanes son chiíes y se concentran especialmente en Azerbaján, Irak e Irán. Siguen los preceptos de hadices diferentes a los de los suníes y tienen sus propias tradiciones legales. Los eruditos chiíes tienen mayor autoridad que los suníes y mayor amplitud para la interpretación del Corán y de los hadices.
+	
+	No aceptan la legitimidad de los primeros 3 califas suníes, sino que sostienen que Mahoma anunció a su yerno y primo Ali ibn Abi Tálib como su sucesor, particularmente durante el sermón de Ghadir Khumm. Tras la muerte Uthmán ibn Affán, Alí es finalmente elegido califa.
+	
+	\pagebreak % CUTRADA
+	\subsubsection{Diferencias}
+	
+	\begin{tab}{3}{|+f|-C|-C|}{Tema & Suní & Chií}
+		Infalibilidad & Sólo los profetas & Los profetas y los Imames\footnote{Los 12 sucesores chiíes de Mahoma. Para los suníes un Imam (o Imán) es quién dirige el discurso en una mezquita} \\\hline
+		Sucesión & Elección comunitaria & Designación divina de Alí \\\hline
+		Hadices & De los compañeros de Mahoma (Sahabas) & De los familiares (Ahl al-Bayt) \\\hline
+		El Mahdi\footnote{El guía mesiánico del final de los tiempos.} & Nacerá en el futuro & El 12º Imam en ocultación desde 869 \\\hline
+		Prácticas & 4 escuelas tradicionales (Madhhabs) & Permite Mut'ah y Taqiyya\footnote{Mut'ah es el matrimonio temporal y Taqiyya es el disimulo piadoso de la fe.} \\
+	\end{tab}
+	
+	\subsection{Doctrinas Principales}
+	En el Islam, la fe tiene 6 pilares: La creencia en Allāh, sus ángeles, sus libros sagrados, sus Profetas y Mensajeros, el Día del Juicio, y el Destino, que son credo de la fe islámica.
+	
+	\begin{itemize}
+		\item \textbf{Tawhid (Unicidad):} Creencia en Allāh como Dios único, indivisible y absoluto.
+		\item \textbf{Ángeles:} Seres creados de luz que ejecutan las órdenes de Alá (destacando a Gabriel (\textit{Jibril})).
+		\item \textbf{Libros Revelados:} Aceptan la Torá (\textit{Tawrat}), los Salmos (\textit{Zabur}) y el Evangelio\footnote{Consideran el evangelio como el revelado a Jesús, no los Evangelios cristianos (Mateo, Marcos, Lucas, Juan)} (\textit{Injil}), pero afirman que los textos judeocristianos actuales están algo corruptos (\textit{Tahrif}), siendo el Corán la única revelación inalterada.
+		\item \textbf{Profetas:} Reconocen a figuras bíblicas (Adán, Abraham, Moisés, Jesús (\textit{Isa})) únicamente como profetas musulmanes, siendo Mahoma el <<Sello de los Profetas>>, el último y definitivo.
+		\item \textbf{Día del Juicio:} Resurrección corporal, juicio final y destino eterno en el Paraíso (\textit{Jannah}) o el Infierno (\textit{Jahannam}).
+		\item \textbf{Predestinación:} El decreto divino absoluto sobre todo lo que ocurre en el universo.
+	\end{itemize}
+	
+	%Sahih Bukhari 7363
+	
+	%https://es.wikipedia.org/wiki/Islam#Fuentes_de_la_doctrina_isl%C3%A1mica
+	\subsection{Fuentes de la Doctrina Islámica}
+	La principal fuente del islam es el Corán. En orden de importancia, sigue la Sunna o tradición: el conjunto de los hadices, que son dichos y hechos de Mahoma narrados por sus contemporáneos. Estos hadices son transmitidos por fuentes reconocidas y recopilados en distintas colecciones. En ellas se menciona la cadena de personas consideradas dignas de fe que transmitieron cada uno de los dichos o hechos expuestos. La tercera fuente es el consenso de la comunidad.
+	
+	La colección de la Sunna canónica suní está compuesta por los seis libros llamados Kutub al-Sittah (\textarabic{الكتب الستة}, Los seis libros):
+	\begin{itemize}
+		\item \textbf{Sahih al-Bukhari}, recogido por Imam Bukhari.
+		\item \textbf{Sahih Muslim}, recogido por Muslim ibn al-Hajjaj.
+		\item \textbf{Sunan Abu Dawud}, recogido por Abu Dawud.
+		\item \textbf{Jami' at-Tirmidhi}, recogido por Al-Tirmidhi.
+		\item \textbf{Al-Sunan al-Sughra}, recogido por Al-Nasa'i.
+		\item \textbf{Sunan Ibn Majah}, recogido por Ibn Majah.
+	\end{itemize}
+	
+	\subsubsection{Classificación de los Hadices}
+	
+	\begin{itemize}
+		\item \textbf{Qudsi:} Sagrados, portadores de la palabra divina y no de la de Mahoma.
+		\item \textbf{Sahih:} Auténticos.
+		\item \textbf{Mutawatir:} Notables, recurrentes.
+		\item \textbf{Hasan:} Buenos.
+		\item \textbf{Da'if:} Débiles, normalmente apócrifos.
+	\end{itemize}
+
+	\subsection{Términos Clave}
+	
+	\begin{itemize}
+		\item \textbf{Tawhid} \textipa{[taw.\textcrh i:d]} (\textarabic{توحيد}): La unicidad absoluta de Alá.
+		\item \textbf{Shirk} \textipa{[Sirk]} (\textarabic{شرك}): El pecado supremo e imperdonable en el Islam: <<asociar a otros con Alá>>. Acusan a los cristianos de cometer \textit{shirk} al adorar a Jesucristo como Dios.
+		\item \textbf{Tahrif} \textipa{[ta\textcrh.ri:f]} (\textarabic{تحريف}): Doctrina que sostiene que la Biblia fue deliberadamente alterada y falsificada por judíos y cristianos.
+	\end{itemize}
+	
+	\section{La Trinidad (Defensa)}
+	
+	
+	\section{El Dilema Islámico (Ataque)}
+	
+	
+	\section{Matrimonio Infantil y Aisha (Ataque)}
+	
+	\begin{minibloque}[Tesis del Argumento]
+	El Islam ortodoxo suní sostiene que Mahoma es el modelo moral atemporal y perfecto para la humanidad (\textarabic{الأُسْوَة الحَسَنَة}, \textit{al-uswah al-hasanah}) [Corán 33.21]. Sin embargo, los textos canónicos más sagrados del Islam (\textit{Sahih al-Bukhari} y \textit{Sahih Muslim}) afirman inequívocamente que Mahoma contrajo matrimonio con Aisha (\textarabic{عَائِشَة}) cuando ella tenía 6 años y consumó la relación cuando ella tenía 9 años. Esto plantea un dilema moral irresoluble entre la norma ética objetiva y el comportamiento del considerado <<hombre perfecto>> en la teología islámica.
+	\end{minibloque}
+	
+	\begin{bloque}[Evidencia en las Fuentes Primarias Suníes]
+		\leavevmode
+		\begin{enumerate}
+			\item \textbf{Testimonio Directo en Sahih al-Bukhari [5133]:} Transmitido por Hisham ibn Urwah a través de su padre:
+			<<El Profeta (\textarabic{صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ}) se casó conmigo cuando yo era una niña de seis años, y consumó el matrimonio conmigo cuando yo tenía nueve años>>\footnote{Texto en árabe: \textarabic{تَزَوَّجَنِي النَّبِيُّ وَأَنَا بِنْتُ سِتِّ سِنِينَ، وَبَنَى بِي وَأَنَا بِنْتُ تِسْعِ سِنِينَ}. La expresión \textit{banā bī} (\textarabic{بَنَى بِي}) es el eufemismo clásico para la consumación del matrimonio.}.
+			
+			\item \textbf{Confirmación en Sahih Muslim [1422]:} Aisha relata que fue llevada a la casa de Mahoma mientras jugaba con sus muñecas en el columpio, siendo aún una niña pequeña.
+			
+			\item \textbf{El Marco Jurídico del Corán [65.4]:} Al legislar el periodo de espera (\textarabic{عِدَّة}, \textit{'iddah}) para el divorcio, el Corán incluye explícitamente a las mujeres que aún no han menstruado (\textarabic{وَاللَّائِي لَمْ يَحِضْنَ}, \textit{wa al-la'i lam yahidna}), validando jurídicamente el matrimonio y consumación con prepúberes en la jurisprudencia (\textarabic{فِقْه}, \textit{fiqh}).
+		\end{enumerate}
+	\end{bloque}
+	
+	\begin{subbloque}[Análisis Crítico y Desmontaje de Apologías Modernas]
+		Frente a este hecho histórico registrado en sus propios dogmas, los apologistas islámicos modernos suelen intentar dos vías de evasión que colapsan ante el análisis textual:
+		
+		\textbf{1. El Intento de Re-datación Histórica (Revisionismo):} Apologistas contemporáneos intentan argumentar que Aisha tenía entre 16 y 19 años haciendo cálculos indirectos con la edad de su hermana Asma. \textit{Refutación:} Este argumento ignora que la cadena de transmisión (\textarabic{إِسْنَاد}, \textit{isnad}) de la edad de 6 y 9 años es de grado máximo (\textit{Mutawatir} / \textit{Sahih}) en Bukhari y Muslim. Rechazar este dato implica desmantelar la validez de todo el corpus de Hadices en los que se apoya la práctica islámica.
+		
+		\textbf{2. La Falacia del Relativismo Cultural y la Pubertad:} Se argumenta que en la Arabia del siglo VII era normal o que ella ya era <<madurativamente apta>>. \textit{Refutación:} Si el comportamiento de Mahoma se justifica por la costumbre cultural de su época, se destruye la premisa teológica de que él es una norma moral objetiva y universal para todos los tiempos y culturas. Lo que es intrínsecamente dañino para el desarrollo de una niña no puede convertirse en mandato divino o modelo ético perdurable.
+	\end{subbloque}
+	
+	\begin{bloque}[Fuentes de autoridad y textos canónicos]
+		\begin{itemize}
+			\item \textbf{Sahih al-Bukhari:} Libro de la Bodas (\textit{Kitab an-Nikah}), Hadices n.º 5133, 5134, 5158.
+			\item \textbf{Sahih Muslim:} Libro del Matrimonio (\textit{Kitab an-Nikah}), Hadiz n.º 1422.
+			\item \textbf{Tafsir Ibn Kathir (s. XIV):} Sobre el Corán 65.4, confirmando que la norma aplica a niñas que no han alcanzado la pubertad.
+			\item \textbf{Sunan an-Nasa'i:} Hadiz n.º 3378.
+		\end{itemize}
+	\end{bloque}
+	
+	%https://www.reddit.com/r/exmuslim/comments/18zwk4n/is_this_for_real/
+	
+	
+	Jesús habla desde la cuna (Sura 19:29-33)	Evangelio Árabe de la Infancia (Siglo V-VI).
+	Jesús da vida a pájaros de barro (Sura 3:49)	Evangelio del Pseudo-Tomás o de la Infancia (Siglo II).
+	Sustitución en la Cruz (Jesús no muere, aparenta morir; Sura 4:157)	Docetismo gnóstico (Segundo Tratado del Gran Set o el Evangelio de Basílides).
+	
+	
+	\chap{Contra Pseudo-Cristianos}
+	
+	\section{Jehová y Yahvé}
+	
+	\begin{minibloque}[Objeción]
+		La forma <<Jehová>> es una invención sin validez lingüística, en cambio <<Yahvé>> es el nombre correcto de Dios.
+	\end{minibloque}
+	
+	\begin{minibloque}[Respuesta]\leavevmode
+		\begin{enumerate}
+			\item \textbf{El Tetragramatón:} Dios revela su Nombre en Éxodo 3.14 como YHWH (\texthebrew{יהוה}), un texto consonántico sin vocales.
+			
+			\item \textbf{El Tabú Judío:} Por respeto al 2º Mandamiento, los judíos dejaron de pronunciarlo y leían en voz alta Adonái \textipa{[Pa.do:"naj]} (\texthebrew{אֲדֹנָי}, El Señor).
+			
+			\item \textbf{La Marca Masorética (@VII:X):} Para recordar que debía leerse <<Adonái>>, los eruditos judíos colocaron las vocales de <<Adonái>> sobre las consonantes de YHWH\footnote{Por las reglas gramáticas hebreas \textit{a} pasa a \textit{e}}\footnote{Este sistema se le llama \textit{Qeri-Ketiv}, \textit{Qeri} significa <<lo que se lee>> y \textit{Ketiv} <<lo que está escrito>>}:
+			\[
+			\text{YHWH} + \text{Vocales}(\text{Adonái}) \mapsto \text{YeHoVaH }(\mhebrew{יְהֹוָה})
+			\]
+			\item \textbf{El Despiste:} Traductores cristianos leyeron erróneamente las consonantes y vocales juntas, inventando la palabra híbrida e inexistente Jehová.
+			\item \textbf{La Reconstrucción Vocálica:} La forma <<Yahweh>> \textipa{[jah"wE:]} (Yahvé en español) viene de la raíz arcaica hawā (\texthebrew{הָוָה}, <<ser>>), respaldada por la forma teofórica corta <<Yah>> (\texthebrew{יָהּ}) que aparece en palabras como <<aleluya>> (\texthebrew{יָהּ} - \texthebrew{הַלְּלוּ}, alabado sea - Dios).
+		\end{enumerate}
+	\end{minibloque}
+	
+%	\begin{subbloque}[Desarrollo]
+%		Para fundamentar la reconstrucción académica del Tetragramatón frente al artificio masorético, es preciso analizar la estructura verbal del hebreo antiguo, la evolución fonética de sus consonantes y las pruebas de la antroponimia bíblica:
+%		
+%		\textbf{1. Morfosintaxis y Etimología Verbal:} El Tetragramatón deriva de la raíz triconsonántica arcaica \texthebrew{הָוָה} (\textit{hawah}), variante antigua del verbo \texthebrew{הָיָה} (\textit{hayah}, <<ser>> o <<llegar a ser>>). El prefijo \textit{Yod} (\texthebrew{יְ}) señala la tercera persona del masculino singular en aspecto imperfecto. En el tronco conjugado \textit{Qal} expresa la existencia continua (<<Él es / El que subsiste>>), mientras que en el tronco causativo \textit{Hiphil} adopta exactamente la vocalización \textit{Yahweh} (<<Él hace que las cosas lleguen a ser>> o <<Creador del universo>>).
+%		
+%		\textbf{2. Evolución Fonética del Sonido \texthebrew{ו} ($w \rightarrow v$):} En el hebreo bíblico antiguo, la tercera consonante del Tetragrama, \textit{Waw} (\texthebrew{ו}), se pronunciaba como una aproximante labiovelar sonora [$w$] (similar a la \textit{u} en <<huevo>>). Con el tiempo y por contacto con el arameo, sufrió un proceso de fricativización progresiva hacia la labiodental sonora [$v$]. Esto explica la variación en las fuentes antiguas: los testimonios griegos tempranos del siglo III a.C. transcrito como \textgreek{Ιαουε} intentaban plasmar la [$w$] semítica, mientras que autores patrísticos del siglo V d.C. como Teodoreto escriben \textgreek{Ιαβε}, reflejando que la beta griega (\textgreek{β}) ya había pasado al sonido fricativo [$v$] o [$\beta$].
+%		
+%		\textbf{3. La Evidencia de la Antroponimia Teófora:} La presencia indiscutible de la vocal inicial \textit{a} en el Nombre divino original se demuestra mediante las formas poéticas y los nombres propios teóforos de las Escrituras. La forma abreviada \textit{Yah} (\texthebrew{יָהּ}), conservada en expresiones litúrgicas como <<Aleluya>> (\texthebrew{הַלְלוּ-יָהּ}), así como los prefijos y sufijos en nombres bíblicos como \textit{Yahu-natán} (Jonathan), \textit{Eli-yahu} (Elías) o \textit{Yesha-yahu} (Isaías), atestiguan que la primera sílaba del Tetragrama poseía originalmente la vocal \textit{a} y no la vocal \textit{e} del compuesto masorético.
+%	\end{subbloque}
+	
+	\begin{minibloque}[Fuentes]
+%		\begin{itemize}
+%			\item \textbf{Wiktionary}: Documenta la derivación del Tetragrama a partir de la raíz arcaica \link{https://en.wiktionary.org/wiki/\%D7\%99\%D7\%94\%D7\%95\%D7\%94#Hebrew}{hawāh} (\texthebrew{הָוָה}, <<ser/existir>>) y las composiciones como \link{https://en.wiktionary.org/wiki/hallelujah#English}{hallelujah}.
+%		\end{itemize}
+	\end{minibloque}
+	
+	
+	\chap{Contra Protestantes}
+	
+	\section{Sōlā Scrīptūrā (Defensa)}
+	
+	
+	\section{Sōlā Scrīptūrā (Ataque)}
+	
+	\section{Canon}
+	
+	\section{Salvación y Obras}
+	
+	Tito 3.5, nos SALVÓ no por obras, (<<salvó>> en perfecto, hay que mantener la fe viva con obras)
+	1 Corintios 6.11
+	Colosenses 2.12
+	Gálatas 3.24-26
+	
+	\section{El Bautismo Salva}
+	
+	CIC 1257-1262
+	
+	\begin{subbloque}[Versículos a Favor] Prefiguraciones:
+		\begin{itemize}
+			\item Génesis 1.2
+			\item 1 Pedro 3.20
+			\item 2 Reyes 5.10-13: Prefiguración de que el agua puede salvar.
+			\item Ezekiel 36.25-28
+		\end{itemize}
+		\begin{itemize}
+			\item Juan 3.5: Quién no nazca del agua no entrarà al reino de los cielos
+			\item Mateo 28.19
+			\item Marcos 16.16
+			\item Tito 3.5
+			\item Hechos 2.38, 41
+			\item 1 Pedro 3.20-21: Prefiguración + Afirmación
+			\item Romanos 6.3-5, Colosenses 2.12: El bautismo nos une a Cristo y a su resurrección (salvadora, cf. 1 Corintios 15.14)
+			\item Hebreos 10.22
+			\item Hechos 19.2-6
+			\item Gálatas 3.26-27
+		\end{itemize}
+	\end{subbloque}
+	
+	\begin{subminibloque}[Versículos en Contra]
+		\begin{enumerate}
+			\item Marcos 16.16
+			\item Romanos 3.27
+			\item Romanos 5.1
+			\item Romanos 4.2
+			\item Romanos 4.10-11, 16
+			\item Romanos 4.21-22, Génesis 15.6
+			\item Juan 3.16,18
+			\item Juan 6.40,47
+			\item Lucas 7.48,50
+			\item Efesios 2.8-9
+			\item Mateo 3.11, Actos 2.38: Famoso eis
+			\item 1 Corintios 1.17
+			\item Hechos 10.44-48
+		\end{enumerate}
+	\end{subminibloque}
+	
+	El bautismo es una obra nuestra a de Dios? Tito 3.5
+	
+	Pablo normalmente habla de <<obras>> como seguir la ley mosaica. Efesios 2.8-10 distingue pablo obras y buenas obras
+	
+	Contra romanos 4, esta romanos 4.9 que reafirma que son obras mosaicas
+	
+	usos de baptizo, hay agua o es solo "sumergirse" sin necesariamente agua en algunos versiculos? como Romanos 6.3-5, 1 Pedro 3.21
+	
+	lo del ladron es una forma extraordinaria de salvación, muchos protestantes de acuerdo
+	
+	
+	\begin{bloque}[Respuesta]
+		\begin{enumerate}
+			\item \textbf{Argumento desde el Silencio:} Sobre este tema, hay que fijarse en los versículos propios del bautismo, no de principios generales sobre la fe.
+		\end{enumerate}
+	\end{bloque}
+	
+	
+	\begin{minibloque}[Problemas]
+		\begin{enumerate}
+			\item ¿Nadie necesita ser bautizado?
+		\end{enumerate}
+	\end{minibloque}		
+	
+	
+	\subsection{Gemini}
+	
+	\begin{subbloque}[Versículos a Favor]
+		\textbf{Prefiguraciones del Antiguo Testamento:}
+		\begin{itemize}
+			\item \textbf{Génesis 1.2:} El Espíritu de Dios se movía sobre las aguas de la creación.
+			\item \textbf{2 Reyes 5.10-13:} La purificación y curación hídrica de Naamán en el Jordán.
+			\item \textbf{Ezequiel 36.25-28:} <<Esparciré sobre vosotros agua limpia, y seréis limpiados... y pondré dentro de vosotros mi Espíritu>>.
+			\item \textbf{1 Pedro 3.20:} Las ocho personas salvadas a través del agua en el arca de Noé.
+		\end{itemize}
+		
+		\textbf{Textos Directos del Nuevo Testamento:}
+		\begin{itemize}
+			\item \textbf{Juan 3.5:} <<El que no naciere de agua y del Espíritu, no puede entrar en el reino de Dios>>.
+			\item \textbf{Mateo 28.19:} La Gran Comisión: <<Bautizándolos en el nombre del Padre, del Hijo y del Espíritu Santo>>.
+			\item \textbf{Marcos 16.16:} <<El que creyere y fuere bautizado, será salvo>>.
+			\item \textbf{Hechos 2.38, 41:} <<Bautícese... para perdón de los pecados, y recibiréis el don del Espíritu Santo>>.
+			\item \textbf{Hechos 19.2-6:} La invalidez del bautismo de Juan frente al bautismo en Cristo.
+			\item \textbf{Romanos 6.3-5 / Colosenses 2.12:} El bautismo nos sepulta y une a Cristo en su resurrección salvadora.
+			\item \textbf{Gálatas 3.26-27:} <<Todos los que habéis sido bautizados en Cristo, de Cristo estáis vestidos>>.
+			\item \textbf{Tito 3.5:} <<Nos salvó... por el lavamiento de la regeneración y por la renovación en el Espíritu Santo>>.
+			\item \textbf{Hebreos 10.22:} <<Purificados los corazones... y lavados los cuerpos con agua pura>>.
+			\item \textbf{1 Pedro 3.20-21:} <<El bautismo que corresponde a esto ahora nos salva...>>.
+		\end{itemize}
+	\end{subbloque}
+	
+	\begin{subminibloque}[Objeciones Protestantes (Versículos en Contra)]
+		\begin{enumerate}
+			\item \textbf{Marcos 16.16 (2ª parte):} Arguyen que al decir <<mas el que no creyere, será condenado>>, la condena no menciona el bautismo.
+			\item \textbf{Romanos 3.27 / 4.2, 10-11, 16, 21-22 (cf. Gn 15.6):} La justificación de Abraham fue por la fe antes de ser circuncidado, sin obras.
+			\item \textbf{Romanos 5.1 / Efesios 2.8-9:} Afirmación del principio de la salvación <<por la fe>> sin obras humanas.
+			\item \textbf{Juan 3.16, 18 / 6.40, 47 / Lucas 7.48, 50:} Promesas de vida eterna y perdón ligadas únicamente a <<creer>> o a la fe demostrada.
+			\item \textbf{Mateo 3.11 / Hechos 2.38 (Gramática de \textit{Eis}):} Intento de traducir \textgreek{εἰς} (\textit{eis}) como <<a causa de>> y no <<para>> perdón.
+			\item \textbf{1 Corintios 1.17:} Pablo afirma que Cristo no lo envió a bautizar, sino a predicar el evangelio.
+			\item \textbf{Hechos 10.44-48:} La casa de Cornelio recibe el Espíritu Santo antes del bautismo en agua.
+		\end{enumerate}
+	\end{subminibloque}
+	
+	\begin{bloque}[Respuesta]
+		\begin{enumerate}
+			\item \textbf{Hermenéutica de Pasajes Específicos vs. Generales:} No se puede usar la afirmación general de la fe (p. ej., \textit{Juan 3.16}) para anular la prescripción sacramental explícita del bautismo (\textit{Juan 3.5}, \textit{1 Pedro 3.21}).
+			
+			\item \textbf{La Naturaleza del Bautismo (Obra Divina vs. Obra Humana):} El bautismo no es una <<obra de la Ley Mosaica>> (\textgreek{ἔργα νόμου}, \textit{Romanos 3.28}), sino un acto de Dios donde el creyente es sujeto pasivo de su gracia regeneradora (\textit{Tito 3.5}).
+			
+			\item \textbf{Contextualización de Romanos 4:} En \textit{Romanos 4.9}, Pablo especifica que combate las obras de rituales veterotestamentarios (como la circuncisión). La salvación cristiana es gracia pura otorgada instrumentalmente en el bautismo.
+			
+			\item \textbf{La Gramática de \textit{Eis} (\textgreek{εἰς}) en Hechos 2.38:} En la sintaxis del griego koiné, \textgreek{εἰς} expresa propósito y resultado (<<para/con el fin de>>), confirmado por el paralelismo exacto en \textit{Mateo 26.28} (<<sangre derramada \textgreek{εἰς} perdón de pecados>>).
+			
+			\item \textbf{Formas Extraordinarias de Salvación:} El caso del Buen Ladrón (\textit{Lucas 23.43}) o Cornelio (\textit{Hechos 10}) demuestran que Dios no está amarrado a sus sacramentos, reconociéndose el <<Bautismo de Deseo>> (\textit{CIC 1258}), sin que esto anule la norma ordinaria mandatada por Cristo.
+		\end{enumerate}
+	\end{bloque}
+	
+	\begin{minibloque}[Reductio ad Absurdum para la Postura Protestante]
+		\begin{enumerate}
+			\item Si el bautismo es un mero símbolo vacuo que no regenera ni perdona pecados, ¿por qué Pedro afirma textualmente <<el bautismo ahora nos salva>> (\textit{1 Pedro 3.21}) y ordena bautizarse <<para el perdón de los pecados>> (\textit{Hechos 2.38})?
+			\item Si la salvación prescinde por completo del sacramento hídrico, se vuelve superflua la insistencia categórica de Jesús en \textit{Juan 3.5} sobre la necesidad de nacer <<del agua y del Espíritu>>.
+		\end{enumerate}
+	\end{minibloque}
+	
+	
+	\section{Idolatría (Defensa)}
+	
+	\subsection{No te harás imagen de lo que esté en el cielo}
+	
+	\begin{minibloque}[Objeción]
+		Los católicos violan el Segundo Mandamiento [Éxodo 20.4] al fabricar imágenes y estatuas de seres celestiales (santos, ángeles, María o Dios) y postrarse ante ellas.
+	\end{minibloque}
+	
+	\begin{minibloque}[Posición Católica]
+		La Iglesia prohíbe explícitamente adorar las imágenes. El Catecismo enseña que el culto a las sagradas imágenes se fundamenta en la persona representada, rechazando atribuirles divinidad o poder propio [CIC \S 2129:2132].
+	\end{minibloque}
+	
+	\begin{bloque}[Respuesta]\leavevmode
+		\begin{enumerate}
+			\item \textbf{El Contexto Inmediato:} Éxodo 20.4 no prohíbe el arte ni la representación plástica, sino la confección de ídolos o falsos dioses, tal como explicita el versículo anterior: <<No tendrás dioses ajenos delante de mí>> [Éxodo 20.3].
+			
+			\item \textbf{Imágenes Manda por Dios:} La prohibición no puede ser absoluta sobre la materia o el arte, pues Dios mismo ordena la elaboración de imágenes sagradas para el culto, como los Querubines de oro del Arca (Éxodo 25:18-20) y la Serpiente de bronce (Números 21:8-9).
+		\end{enumerate}
+	\end{bloque}
+	
+	\begin{bloque}[Fuentes de autoridad y testimonios históricos]
+		\begin{itemize}
+			\item \textbf{San Basilio Magno (\textit{De Spiritu Sancto} 18, 45; c. 375 d.C.):} Formula el axioma patrístico fundamental sobre la iconografía: <>.
+			
+			\item \textbf{San Juan Damasceno (\textit{Apologiae adversus eos qui sacras imagines abiciunt}; c. 730 d.C.):} Argumenta la santificación de la materia: <<No Creador a adoro al de dignó en habitar hizo la materia materia, mi mí obrar para por que salvación se sino y>>.
+			
+			\item \textbf{II Concilio de Nicea (787 d.C.):} Define dogmáticamente la distinción entre la veneración de honor (\textit{proskynesis schetike}) hacia los iconos/estatuas y la adoración de fe (\textit{latreia}) reservada exclusivamente a la naturaleza divina.
+			
+			\item \textbf{San Tomás de Aquino (\textit{Summa Theologiae} III, q. 25, a. 3):} Explica la intencionalidad del culto: <<El aquello cuanto del detiene ella, en hacia imagen la movimiento no que representa se sino tal tiende ánimo>>.
+			
+			\item \textbf{Catecismo de la Iglesia Católica (\S 2129--2132):} Enseña que el culto cristiano de las imágenes no es contrario al primer mandamiento, pues el honor tan solo se venera en la persona representada, no en la materia.
+		\end{itemize}
+	\end{bloque}
+	
+	
+	
+	
+	\lastpage{1} 	% 0 --> no comercial, 1 --> sí comercial
+	
+\end{document}

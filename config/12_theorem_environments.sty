@@ -76,13 +76,20 @@
 }%
 }
 
-% Configuración de listas dentro de entornos de teorema
+
+% Macro para entornos que NO llevan QED pero necesitan corregir la primera lista
+\newcommand{\addlistfix}[1]{%
+\AtBeginEnvironment{#1}{%
+	\global\@just@started@thmtrue
+	\everypar{\global\@just@started@thmfalse}%
+}%
+}
+
+% Configuración de listas dentro de entornos (sin depender de \@in@theorem)
 \newcommand{\@configurar@lista@teorema}{%
-\if@in@theorem
 \if@just@started@thm
 \leavevmode
 \global\@just@started@thmfalse
-\fi
 \fi
 }
 
@@ -149,12 +156,12 @@
 {}% puntuación vacía (se gestiona dinámicamente en la cabecera)
 {.5em}% espacio tras puntuación
 {%
-	\llap{\raisebox{0.15ex}{\small$\blacktriangleright$}\hspace{0.6em}}%
-	\ifstrempty{#1}{%
-		\ifstrempty{#3}{}{#3:}% si no hay nombre (#1), imprime #3: solo si no está vacío
-	}{%
-		#1\ifstrempty{#3}{:}{ (#3):}% si hay nombre (#1), añade el colon o los paréntesis con colon
-	}%
+\llap{\raisebox{0.15ex}{\small$\blacktriangleright$}\hspace{0.6em}}%
+\ifstrempty{#1}{%
+	\ifstrempty{#3}{}{#3:}% si no hay nombre (#1), imprime #3: solo si no está vacío
+}{%
+	#1\ifstrempty{#3}{:}{ (#3):}% si hay nombre (#1), añade el colon o los paréntesis con colon
+}%
 }
 
 % estilo 2: Triángulo hueco en el margen
@@ -166,12 +173,12 @@
 {}%
 {.5em}%
 {%
-	\llap{\raisebox{0.15ex}{\small$\vartriangleright$}\hspace{0.6em}}%
-	\ifstrempty{#1}{%
-		\ifstrempty{#3}{}{#3:}%
-	}{%
-		#1\ifstrempty{#3}{:}{ (#3):}%
-	}%
+\llap{\raisebox{0.15ex}{\small$\vartriangleright$}\hspace{0.6em}}%
+\ifstrempty{#1}{%
+	\ifstrempty{#3}{}{#3:}%
+}{%
+	#1\ifstrempty{#3}{:}{ (#3):}%
+}%
 }
 
 % estilo 3: Rombo sólido en el margen
@@ -183,12 +190,12 @@
 {}%
 {.5em}%
 {%
-	\llap{\raisebox{0.15ex}{\small$\blacklozenge$}\hspace{0.6em}}%
-	\ifstrempty{#1}{%
-		\ifstrempty{#3}{}{#3:}%
-	}{%
-		#1\ifstrempty{#3}{:}{ (#3):}%
-	}%
+\llap{\raisebox{0.15ex}{\small$\blacklozenge$}\hspace{0.6em}}%
+\ifstrempty{#1}{%
+	\ifstrempty{#3}{}{#3:}%
+}{%
+	#1\ifstrempty{#3}{:}{ (#3):}%
+}%
 }
 
 % estilo 4: Rombo hueco en el margen
@@ -200,17 +207,13 @@
 {}%
 {.5em}%
 {%
-	\llap{\raisebox{0.15ex}{\small$\lozenge$}\hspace{0.6em}}%
-	\ifstrempty{#1}{%
-		\ifstrempty{#3}{}{#3:}%
-	}{%
-		#1\ifstrempty{#3}{:}{ (#3):}%
-	}%
+\llap{\raisebox{0.15ex}{\small$\lozenge$}\hspace{0.6em}}%
+\ifstrempty{#1}{%
+	\ifstrempty{#3}{}{#3:}%
+}{%
+	#1\ifstrempty{#3}{:}{ (#3):}%
+}%
 }
-
-%====================================================%
-
-
 
 %====================================================%
 
@@ -320,15 +323,25 @@
 
 % aplicación del qed automático
 \forcsvlist{\addmarginqed}{%
-	defin,ques,prob,prop,sol,coment,lem,teo,cor,%
-	definless,quesless,probless,propless,solless,comentless,lemless,teoless,corless,%
-	bloque%
+defin,ques,prob,prop,sol,coment,lem,teo,cor,%
+definless,quesless,probless,propless,solless,comentless,lemless,teoless,corless,%
+bloque%
 }
 
 \forcsvlist{\addmarginqedhollow}{%
-	subdefin,subques,subprob,subprop,subsol,subcoment,sublem,subteo,subcor,%
-	subdefinless,subquesless,subprobless,subpropless,subsolless,subcomentless,sublemless,subteoless,subcorless,%
-	subbloque%
+subdefin,subques,subprob,subprop,subsol,subcoment,sublem,subteo,subcor,%
+subdefinless,subquesless,subprobless,subpropless,subsolless,subcomentless,sublemless,subteoless,subcorless,%
+subbloque%
+}
+
+\forcsvlist{\addlistfix}{%
+minidefin,miniques,miniprob,miniprop,minisol,minicoment,minilem,miniteo,minicor,%
+minidefinless,miniquesless,miniprobless,minipropless,minisolless,minicomentless,minilemless,miniteoless,minicorless,%
+minibloque,%
+subminidefin,subminiques,subminiprob,subminiprop,subminisol,subminicoment,subminilem,subminiteo,subminicor,%
+subminidefinless,subminiquesless,subminiprobless,subminipropless,subminisolless,subminicomentless,subminilemless,subminiteoless,subminicorless,%
+subminibloque,%
+bloque,subbloque%
 }
 
 %====================================================%
@@ -365,20 +378,20 @@
 
 % Macro auxiliar: define automáticamente box<nombre>1 y box<nombre>2
 \newcommand{\NewTheoremBox}[2]{%
-	% Serie 1: Marco amarillo (Y1)
-	\newtcolorbox{box#11}[1][]{%
-		base frame overlay=Y1,%
-		colframe=Y1,%
-		code={\refstepcounter{defin}},%
-		title={#2\ \thedefin\ifstrempty{##1}{}{ (##1)}}%
-	}%
-	% Serie 2: Marco dinámico según tema (\tcbTextColor)
-	\newtcolorbox{box#12}[1][]{%
-		base frame overlay=\tcbTextColor,%
-		colframe=\tcbTextColor,%
-		code={\refstepcounter{defin}},%
-		title={#2\ \thedefin\ifstrempty{##1}{}{ (##1)}}%
-	}%
+% Serie 1: Marco amarillo (Y1)
+\newtcolorbox{box#11}[1][]{%
+	base frame overlay=Y1,%
+	colframe=Y1,%
+	code={\refstepcounter{defin}},%
+	title={#2\ \thedefin\ifstrempty{##1}{}{ (##1)}}%
+}%
+% Serie 2: Marco dinámico según tema (\tcbTextColor)
+\newtcolorbox{box#12}[1][]{%
+	base frame overlay=\tcbTextColor,%
+	colframe=\tcbTextColor,%
+	code={\refstepcounter{defin}},%
+	title={#2\ \thedefin\ifstrempty{##1}{}{ (##1)}}%
+}%
 }
 
 \NewTheoremBox{defin}{\nametheoremdefinition}		%\begin{boxdefin1}, \begin{boxdefin2}

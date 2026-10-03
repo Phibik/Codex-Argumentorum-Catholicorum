@@ -13,6 +13,14 @@
 
 %====================================================%
 
+% Definición del comando \point al margen izquierdo (default \bullet)
+\newcommand{\point}[1][\textbullet]{%
+	\par\smallskip
+	\noindent\llap{#1\hspace{0.6em}}\ignorespaces
+}
+
+%====================================================%
+
 % Lógica de colocación automática de símbolo qed al final de los entornos
 \makeatletter
 % Cerrojos de seguridad
